@@ -1,0 +1,62 @@
+/* Updated CSS with gradient background */
+
+.body-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.module {
+  background-color: #818496b0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width:30%;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style error messages */
+.alert-error {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+body {
+  
+  background-image: url("C:\Users\keert\Downloads\crm.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
